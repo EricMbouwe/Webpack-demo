@@ -14,7 +14,6 @@ function component() {
   clg('prod mode')
 
   return element;
-  
 }
 
 document.body.appendChild(component());
