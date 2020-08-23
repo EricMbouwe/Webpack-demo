@@ -10,8 +10,11 @@ function component() {
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
   element.innerHTML = myName('Cody');
+  clg('dev mode')
+  clg('prod mode')
 
   return element;
+  
 }
 
 document.body.appendChild(component());
