@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import myName from './myName';
+import './main.scss'
 
 function component() {
   const element = document.createElement('div');
